@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_GITHUB_USERNAME/jenkins-cicd-website.git'
+                    url: 'https://github.com/sunkaraashawaddama-glitch/jenkins-cicd-website.git'
             }
         }
 
