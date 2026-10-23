@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        WEBSITE_HOST = 'WEBSITE_PUBLIC_IP'
+        WEBSITE_HOST = '13.232.69.137'
         WEBSITE_USER = 'deploy'
     }
 
